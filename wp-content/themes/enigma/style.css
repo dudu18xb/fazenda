@@ -2599,3 +2599,59 @@ table td {
     border-top: 1px solid #006700;
     background: none !important;
 }
+.enigma_portfolio_shadow {
+    background: none !important;
+}
+.enigma_home_portfolio_caption {
+    border-bottom: 4px solid #006700 !important;
+}
+.img-wrapper:hover .enigma_home_portfolio_caption {
+    background: #006700 !important;
+}
+.enigma_home_portfolio_showcase .enigma_home_portfolio_showcase_icons a:hover {
+    border: 2px solid #006700 !important;
+    color: #006700 !important;
+    background: #fff !important;
+}
+.enigma_home_portfolio_showcase .enigma_home_portfolio_showcase_icons a {
+    background-color: #006700 !important;
+    border: 2px solid #006700 !important;
+}
+.enigma_slider_shadow {
+    background: none !important;
+    display: none;
+}
+.home .enigma_service {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.enigma_service_area:hover .enigma_service_iocn {
+    border: 1px solid #006700 !important;
+}
+.enigma_post_date span.date {
+    font-size: 16px;
+    line-height: 28px;
+}
+.enigma_fuul_blog_detail_padding h2 {
+    color: #006700 !important;
+}
+.enigma_post_date {
+    background: #006700 !important;
+}
+.enigma_sidebar_widget {
+    border-left: 3px solid #006700 !important;
+    border-right: 3px solid #006700 !important;
+    border-bottom: 3px solid #006700 !important;
+}
+.enigma_sidebar_widget .btn-search {
+    background: #006700 !important;
+}
+.enigma_sidebar_widget_title {
+    background: #006700 !important;
+}
+.enigma_sidebar_widget ul li a {
+    color: #006700 !important;
+}
+.enigma_tags a {
+    background-image: linear-gradient(to bottom, #edf0f2 50%, #31A3DD 50%);
+}
