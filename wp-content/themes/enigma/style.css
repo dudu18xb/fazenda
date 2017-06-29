@@ -2584,12 +2584,34 @@ table td {
     float: left;
     padding-left: 30px;
 }
+.left-transparencia {
+    width: 100%;
+    float: left;
+    padding-left: 0px;
+}
+.left-transparencia h5 {
+    margin-top: 20px;
+    color: #006700;
+    font-size: 1.2em;
+    margin-bottom: -13px;
+}
 .left-cargos h5 {
     margin-top: 20px;
     color: #006700;
     font-size: 1.2em;
 }
 .tipo-de-cargos {
+    padding: 1px 10px 1px 10px;
+    background: rgba(0, 103, 0, 0.2);
+    border-radius: 10px;
+    margin: 5px 5px 5px 0px;
+}
+.tipo-de-transparencia img {
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+}
+.tipo-de-transparencia {
     padding: 1px 10px 1px 10px;
     background: rgba(0, 103, 0, 0.2);
     border-radius: 10px;
@@ -2653,5 +2675,55 @@ table td {
     color: #006700 !important;
 }
 .enigma_tags a {
-    background-image: linear-gradient(to bottom, #edf0f2 50%, #31A3DD 50%);
+    background-image: linear-gradient(to bottom, #edf0f2 50%, #006700 50%);
+}
+/* transparencia*/
+.transparencia-estrutura li > ul > li > h2 {
+    color: #006700;
+}
+.transparencia-estrutura li > ul > li > h3  {
+    color: #006700;
+}
+.transparencia-estrutura h3 {
+    color: #006700; 
+    width: 52%; 
+    float: right; 
+    margin-top: 0px; 
+    border-bottom: 1px solid #006700;
+}
+.transparencia-estrutura p {
+    float: right; 
+    width: 52%;
+}
+/*noticia*/
+.noticia-centro {
+    padding-bottom: 10px;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #006700;
+}
+
+.noticia-centro .gal-container {
+    margin-bottom: -29px;
+}
+.noticia-centro .btn {
+    float: right;
+    margin-top: 0px;
+    background-color: #006700;
+    border-color: #016501;
+
+}
+.noticia-centro .btn:hover {
+    background-color: #ffffff;
+    border-color: #016501;
+    color: #016501;
+
+}
+.noticia-centro .enigma_blog_full p {
+    width: 57%;
+}
+
+.noticia-centro .alignleft {
+    margin-right: 1.0em;
 }
