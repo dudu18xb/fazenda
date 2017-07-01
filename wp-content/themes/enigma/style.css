@@ -2727,3 +2727,9 @@ table td {
 .noticia-centro .alignleft {
     margin-right: 1.0em;
 }
+.parceiros-centro .tipo-de-cargos {
+    background: rgba(160, 152, 152, 0.2);
+}
+.parceiros-centro img {
+    padding: 0px 0px 10px 0px;
+}
