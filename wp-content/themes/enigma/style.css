@@ -2733,3 +2733,24 @@ table td {
 .parceiros-centro img {
     padding: 0px 0px 10px 0px;
 }
+.hd_cover {
+
+    background-color: #fff !important;
+}
+
+@media screen and (max-width: 991px) {
+    .hd_cover {
+        background-image: none !important;
+    }
+    .logo {
+        display: block !important;
+    }
+    .noticia-centro {
+        height: 274px;
+    }
+    .noticia-centro h3{
+        width: 100% !important;
+    }
+
+}
+
