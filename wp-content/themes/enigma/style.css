@@ -2754,3 +2754,38 @@ table td {
 
 }
 
+/* mechendo dentro da estrutura*/
+.estrutura-centro{
+    width: 100%;
+    float: left;
+}
+.estrutura-centro p{
+    color: #006700;
+    width: 100%;
+}
+.estrutura-centro h2{
+    color: #006700;
+    width: 100%;
+
+}
+.estrutura-centro h3{
+    color: #006700;
+    width: 100%;
+}
+.estrututa-container h3 {
+    color: #006700;
+    width: 52%;
+    float: right;
+    margin-top: 0px;
+    border-bottom: 1px solid #006700;
+}
+.estrututa-container h2 {
+    color: #006700;
+    width: 100%;
+    float: left;
+}
+.estrututa-container > p {
+    float: right;
+    width: 52%;
+}
+

@@ -39,10 +39,10 @@ if($wl_theme_options['blog_title'] !='') { ?>
 				<p class="enigma_tags"><?php the_tags('Tags :&nbsp;', '', '<br />'); ?></p>
 				<?php } ?>
 				<?php the_excerpt( __( 'Read More' , 'enigma' ) ); ?>
-				<a href="<?php the_permalink(); ?>" class="enigma_blog_read_btn"><i class="fa fa-plus-circle"></i><?php _e('Read More','enigma'); ?></a>
+				<a href="<?php the_permalink(); ?>" class="enigma_blog_read_btn"><i class="fa fa-plus-circle"></i><?php _e('Veja Mais','enigma'); ?></a>
 				<div class="enigma_blog_thumb_footer">
 					<ul class="enigma_blog_thumb_date">
-						<li><i class="fa fa-user"></i><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php echo get_the_author(); ?></a></li>
+					
 						<li><i class="fa fa-clock-o"></i>
 						<?php if ( ('d M  y') == get_option( 'date_format' ) ) : ?>
 						<?php echo get_the_date('F d ,Y'); ?>
