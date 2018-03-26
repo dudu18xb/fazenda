@@ -8,9 +8,24 @@
     <!--[if gt IE 8]><!-->
 <html <?php language_attributes(); ?>><!--<![endif]-->
 <head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <meta charset="<?php bloginfo('charset'); ?>" />	
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Fazenda Renascer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no"/>
+    <meta name="theme-color" content="#007400">
+    <meta name="description" content="Fazenda Renascer, Ainda Existe uma Esperança"/>
+    <meta name="keywords" content="Fazenda Renascer Umuarama, Adejoc, Umuarama"/>
+    <meta name="author" content="QNET"/>
+    <meta name="web_author" content="Eduardo Rocha"/>
+    <meta name="copyright" content="© 2018 Fazenda Renascer"/>
+    <meta name="robots" content="index,follow"/>
+    <meta name="rating" content="general"/>
+    <meta name="distribution" content="global">
+    <meta property='og:url' content='https://renascerumuarama.org.br'/>
+    <meta property='og:type' content='website'/>
+    <meta property='og:title' content='QNET | Home'/>
+    <meta property='og:description' content='Fazenda Renascer, Ainda Existe uma Esperança'/>
+    <meta charset="<?php bloginfo('charset'); ?>" />
 	<?php $wl_theme_options = weblizar_get_options(); ?>
 	<?php if($wl_theme_options['upload_image_favicon']!=''){ ?>
 	<link rel="shortcut icon" href="<?php  echo esc_url($wl_theme_options['upload_image_favicon']); ?>" /> 
